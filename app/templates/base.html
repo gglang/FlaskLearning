@@ -11,9 +11,22 @@
 <body>
     <header>
         <nav>
-            Microblog: <a href="/index">Home</a>
+            Microblog:
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('login') }}">Login</a>
         </nav>
     </header>
+
+    <!-- If flash() was used, those messages will be popped off the flash message list and displayed here -->
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul>
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
 
     {% block mainContent %}{% endblock %}
 </body>
