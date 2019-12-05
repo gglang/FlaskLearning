@@ -3,6 +3,7 @@
 Testing/
 .vscode/
 .flaskenv
+logs/
 
 ### Boilerplate found on: https://github.com/github/gitignore/blob/master/Python.gitignore
 
