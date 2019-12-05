@@ -4,6 +4,7 @@ Testing/
 .vscode/
 .flaskenv
 logs/
+app.db
 
 ### Boilerplate found on: https://github.com/github/gitignore/blob/master/Python.gitignore
 
