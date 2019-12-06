@@ -11,3 +11,5 @@ pip install flask-migrate # Alembic wrapper for flask, SQLAlchemy migration fram
 pip install flask-mail # emailing made easy
 
 pip install pyjwt # Json web tokens; generate secure tokens for password reset links
+
+pip install flask-bootstrap
