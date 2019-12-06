@@ -13,3 +13,7 @@ pip install flask-mail # emailing made easy
 pip install pyjwt # Json web tokens; generate secure tokens for password reset links
 
 pip install flask-bootstrap
+
+pip install flask-moment # timezone hell made easy using streamlined integration of moment.js
+
+pip install flask-babel # localize the universe

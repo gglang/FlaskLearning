@@ -1,0 +1,248 @@
+# French translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: gerald.devbot@gmail.com\n"
+"POT-Creation-Date: 2019-12-06 14:27-0700\n"
+"PO-Revision-Date: 2019-12-06 14:27-0700\n"
+"Last-Translator: Gerald Lang <gerald.devbot@gmail.com>\n"
+"Language: fr\n"
+"Language-Team: fr <gerald.devbot@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: app/__init__.py:21
+msgid "Please log in to access this page."
+msgstr "Veuillez vous connecter pour accéder à cette page."
+
+#: app/email.py:22
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Réinitialiser votre mot de passe"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:49
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:22 app/forms.py:42
+#: app/forms.py:44
+msgid "Password"
+msgstr "Mot de passe"
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: app/forms.py:14 app/routes.py:74 app/templates/login.html:5
+msgid "Sign In"
+msgstr "S'identifier"
+
+#: app/forms.py:19 app/forms.py:37
+msgid "Email"
+msgstr "Courriel"
+
+#: app/forms.py:21 app/forms.py:44
+msgid "Repeat Password"
+msgstr "Répéter le mot de passe"
+
+#: app/forms.py:23 app/routes.py:95 app/templates/register.html:5
+msgid "Register"
+msgstr "S'inscrire"
+
+#: app/forms.py:28
+msgid "This username already exists."
+msgstr "Ce nom d'utilisateur existe déjà."
+
+#: app/forms.py:33
+msgid "This email is already in use."
+msgstr "Ce courriel est déjà utilisé."
+
+#: app/forms.py:38 app/forms.py:45
+msgid "Request Password Reset"
+msgstr "Demander la réinitialisation du mot de passe"
+
+#: app/forms.py:50
+msgid "About Me"
+msgstr "À propos de moi"
+
+#: app/forms.py:51 app/forms.py:68
+msgid "Submit"
+msgstr "Soumettre"
+
+#: app/forms.py:63
+msgid "Please use a different username."
+msgstr "Veuillez utiliser un nom d'utilisateur différent."
+
+#: app/forms.py:67
+msgid "Say something"
+msgstr "Dis quelque chose"
+
+#: app/routes.py:30
+msgid "Your post is now live!"
+msgstr "Votre message est maintenant en ligne !"
+
+#: app/routes.py:39 app/templates/base.html:22
+msgid "Home"
+msgstr "Accueil"
+
+#: app/routes.py:54 app/templates/base.html:23
+msgid "Explore"
+msgstr "Explorer"
+
+#: app/routes.py:67
+msgid "Invalid username or password"
+msgstr "Nom d'utilisateur ou mot de passe invalide"
+
+#: app/routes.py:93
+msgid "Congratulations, you are now a registered user!"
+msgstr "Félicitations, vous êtes maintenant un utilisateur enregistré !"
+
+#: app/routes.py:108
+msgid "Check your email for the instructions to reset your password"
+msgstr "Consultez votre courriel pour connaître les instructions à suivre pour réinitialiser votre mot de passe"
+
+#: app/routes.py:111 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: app/routes.py:125
+msgid "Your password has been reset."
+msgstr "Votre mot de passe a été réinitialisé."
+
+#: app/routes.py:153
+msgid "Your changes have been saved."
+msgstr "Vos modifications ont été sauvegardées."
+
+#: app/routes.py:158 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Modifier le profil"
+
+#: app/routes.py:167 app/routes.py:183
+#, python-format
+msgid "User %(username)s not found."
+msgstr "%(username)s n'est pas trouvé."
+
+#: app/routes.py:170
+msgid "You cannot follow yourself!"
+msgstr "Tu ne peux pas te suivre toi-même !"
+
+#: app/routes.py:174
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Vous suivez %(username)s !"
+
+#: app/routes.py:186
+msgid "You cannot unfollow yourself!"
+msgstr "Tu ne peux pas t'épanouir !"
+
+#: app/routes.py:190
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Vous ne suivez pas %(username)s."
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Retour"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Une erreur inattendue s'est produite"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "L'administrateur a été averti. Désolé pour le dérangement !"
+
+#: app/templates/_post.html:15
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s a dit %(when)s"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "Bienvenue sur Microblog"
+
+#: app/templates/base.html:27
+msgid "Login"
+msgstr "Connexion"
+
+#: app/templates/base.html:29
+msgid "Profile"
+msgstr "Profil"
+
+#: app/templates/base.html:30
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hello, %(username)s!"
+msgstr "Bonjour, %(username)s !"
+
+#: app/templates/index.html:17 app/templates/user.html:31
+msgid "Newer posts"
+msgstr "Nouveaux messages"
+
+#: app/templates/index.html:22 app/templates/user.html:36
+msgid "Older posts"
+msgstr "Postes plus anciens"
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr "Nouvel utilisateur ?"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "Cliquez pour vous inscrire !"
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Oublié votre mot de passe ?"
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr "Cliquez pour le réinitialiser"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Utilisateur"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "Vu pour la dernière fois sur"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d suiveurs"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d à la suite de"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Modifier votre profil"
+
+#: app/templates/user.html:17
+msgid "Follow"
+msgstr "Suivre"
+
+#: app/templates/user.html:19
+msgid "Unfollow"
+msgstr "Dérouler"
+
