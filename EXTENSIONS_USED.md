@@ -7,3 +7,7 @@ pip install flask-wtf # Wrapper around WTForms package for flask to handle forms
 pip install flask-sqlalchemy # an ORM (Object Relational Mapper) wrapped for flask, use PostgreSQL MySQL and SQLite!
 
 pip install flask-migrate # Alembic wrapper for flask, SQLAlchemy migration framework
+
+pip install flask-mail # emailing made easy
+
+pip install pyjwt # Json web tokens; generate secure tokens for password reset links
