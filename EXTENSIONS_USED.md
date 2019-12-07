@@ -17,3 +17,7 @@ pip install flask-bootstrap
 pip install flask-moment # timezone hell made easy using streamlined integration of moment.js
 
 pip install flask-babel # localize the universe
+
+pip install guess_language-spirit # guess language of text
+
+pip install requests # http requests
