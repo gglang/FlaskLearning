@@ -17,5 +17,5 @@ def translate(text, dest_language):
         'https://api.cognitive.microsofttranslator.com/translate',
         params=params, headers=headers, json=body)
     if response.status_code != 200:
-        return _('Error: the translation service failed. params={} headers={} body={}'.format(params, headers, body))
+        return _('Error: the translation service failed.')
     return json.loads(response.content.decode('utf-8-sig'))
