@@ -1,6 +1,6 @@
 pip install flask
 
-pip install python-dotenv # allows you to have .flaskenv to define flask env var each terminal session
+pip install python-dotenv # allows you to have .flaskenv to define flask env var each terminal session or if you import dotenv it can get config from .env in any python project
 
 pip install flask-wtf # Wrapper around WTForms package for flask to handle forms
 
@@ -18,6 +18,6 @@ pip install flask-moment # timezone hell made easy using streamlined integration
 
 pip install flask-babel # localize the universe
 
-pip install guess_language-spirit # guess language of text
+pip install guess_language-spirit # guess language of text; hot garbage that translation REST APIs are better at
 
 pip install requests # http requests
